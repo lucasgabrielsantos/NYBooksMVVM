@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.course.nybooks.presentation.details.DetailsActivity">
+
+
+    <include layout="@layout/include_toolbar"/>
+
+    <TextView
+        android:id="@+id/title01"
+        style="@style/MyTextViewLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        tools:text="@string/book_title_label" />
+
+    <TextView
+        android:id="@+id/title02"
+        style="@style/MyTextViewLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        tools:text="Title 1" />
+
+    <TextView
+        android:id="@+id/description01"
+        style="@style/MyTextViewLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        tools:text="Description" />
+
+    <TextView
+        android:id="@+id/description02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        tools:text="Description" />
+</LinearLayout>

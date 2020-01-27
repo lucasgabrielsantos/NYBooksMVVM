@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NYBooks</string>
+    <string name="books">Books</string>
+    <string name="book_title_label">Title</string>
+    <string name="book_details_label">Book Details</string>
+    <string name="book_description_label">Descrição</string>
+    <string name="erro_401">Erro 401</string>
+    <string name="books_error_401">Não Autorizado</string>
+    <string name="books_error_400_generic">Não não tratado</string>
+    <string name="books_error_500_generic">Erro catastófrico</string>
+</resources>
