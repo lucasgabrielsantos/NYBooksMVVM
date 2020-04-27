@@ -1,4 +1,4 @@
-package br.com.course.nybooks.presentation.books
+package br.com.course.nybooks.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -16,7 +16,10 @@ class BooksAdapter(
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BooksViewHolder {
         val itemView = LayoutInflater.from(parent.context).inflate(R.layout.item_book, parent, false)
-        return BooksViewHolder(itemView, onItemClickListener)
+        return BooksViewHolder(
+            itemView,
+            onItemClickListener
+        )
     }
 
     override fun getItemCount() = books.count()

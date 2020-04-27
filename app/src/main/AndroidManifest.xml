@@ -14,7 +14,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <activity android:name=".presentation.books.BooksActivity">
+        <activity android:name=".ui.activity.BooksActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,8 +23,8 @@
         </activity>
 
         <activity
-            android:name=".presentation.details.DetailsActivity"
-            android:parentActivityName=".presentation.books.BooksActivity" />
+            android:name=".ui.activity.DetailsActivity"
+            android:parentActivityName=".ui.activity.BooksActivity" />
     </application>
 
 </manifest>

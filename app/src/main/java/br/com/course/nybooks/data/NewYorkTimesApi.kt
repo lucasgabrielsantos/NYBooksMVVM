@@ -6,7 +6,7 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 
-interface NYTServices {
+interface NewYorkTimesApi {
     @GET("lists.json")
     fun getBooks(
         @Query("api-key") apiKey: String = "58XXEnecx2CnMrI66t93lnQYiUEFUUq2",

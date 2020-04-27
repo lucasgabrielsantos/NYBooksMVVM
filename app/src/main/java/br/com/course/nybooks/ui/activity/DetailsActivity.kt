@@ -1,10 +1,10 @@
-package br.com.course.nybooks.presentation.details
+package br.com.course.nybooks.ui.activity
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import br.com.course.nybooks.R
-import br.com.course.nybooks.presentation.base.BaseActivity
+import br.com.course.nybooks.base.BaseActivity
 import kotlinx.android.synthetic.main.activity_details.*
 import kotlinx.android.synthetic.main.include_toolbar.*
 

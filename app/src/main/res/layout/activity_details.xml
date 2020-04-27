@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="br.com.course.nybooks.presentation.details.DetailsActivity">
+    tools:context="br.com.course.nybooks.ui.activity.DetailsActivity">
 
 
     <include layout="@layout/include_toolbar"/>
@@ -20,7 +20,6 @@
 
     <TextView
         android:id="@+id/title02"
-        style="@style/MyTextViewLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"

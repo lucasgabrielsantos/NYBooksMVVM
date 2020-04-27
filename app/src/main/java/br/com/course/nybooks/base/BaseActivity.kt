@@ -1,4 +1,4 @@
-package br.com.course.nybooks.presentation.base
+package br.com.course.nybooks.base
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar

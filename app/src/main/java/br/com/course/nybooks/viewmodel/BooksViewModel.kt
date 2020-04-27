@@ -1,4 +1,4 @@
-package br.com.course.nybooks.presentation.books
+package br.com.course.nybooks.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
