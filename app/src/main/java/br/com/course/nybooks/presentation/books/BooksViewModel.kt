@@ -3,7 +3,7 @@ package br.com.course.nybooks.presentation.books
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import br.com.course.nybooks.R
-import br.com.course.nybooks.data.ApiService
+import br.com.course.nybooks.data.ApiServiceRetrofit
 import br.com.course.nybooks.data.model.Book
 import br.com.course.nybooks.data.response.BookBodyResponse
 import retrofit2.Call
@@ -16,7 +16,7 @@ class BooksViewModel : ViewModel() {
     val viewFlipperLiveData: MutableLiveData<Pair<Int, Int?>> = MutableLiveData()
 
     fun getBooks() {
-        ApiService.service.getBooks().enqueue(object : Callback<BookBodyResponse> {
+        ApiServiceRetrofit.service.getBooks().enqueue(object : Callback<BookBodyResponse> {
             override fun onResponse(
                 call: Call<BookBodyResponse>, response: Response<BookBodyResponse>
             ) {
